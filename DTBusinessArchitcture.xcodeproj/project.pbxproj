@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50475880218F2A97002CC06D /* DTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50475878218F2A97002CC06D /* DTLoginViewController.m */; };
-		50475881218F2A97002CC06D /* DTLoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047587D218F2A97002CC06D /* DTLoginPresenter.m */; };
-		50475882218F2A97002CC06D /* DTLoginRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047587E218F2A97002CC06D /* DTLoginRouter.m */; };
-		50475883218F2A97002CC06D /* DTLoginInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047587F218F2A97002CC06D /* DTLoginInteractor.m */; };
 		505688F9218DD8BD00F6E7C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 505688F8218DD8BD00F6E7C0 /* AppDelegate.m */; };
 		50568901218DD8BE00F6E7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50568900218DD8BE00F6E7C0 /* Assets.xcassets */; };
 		50568904218DD8BE00F6E7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50568902218DD8BE00F6E7C0 /* LaunchScreen.storyboard */; };
@@ -42,14 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		50475878218F2A97002CC06D /* DTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLoginViewController.m; sourceTree = "<group>"; };
-		50475879218F2A97002CC06D /* DTLoginRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoginRouter.h; sourceTree = "<group>"; };
-		5047587A218F2A97002CC06D /* DTLoginPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoginPresenter.h; sourceTree = "<group>"; };
-		5047587B218F2A97002CC06D /* DTLoginInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoginInteractor.h; sourceTree = "<group>"; };
-		5047587C218F2A97002CC06D /* DTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoginViewController.h; sourceTree = "<group>"; };
-		5047587D218F2A97002CC06D /* DTLoginPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLoginPresenter.m; sourceTree = "<group>"; };
-		5047587E218F2A97002CC06D /* DTLoginRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLoginRouter.m; sourceTree = "<group>"; };
-		5047587F218F2A97002CC06D /* DTLoginInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLoginInteractor.m; sourceTree = "<group>"; };
 		505688F4218DD8BD00F6E7C0 /* DTBusinessArchitcture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTBusinessArchitcture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505688F7218DD8BD00F6E7C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		505688F8218DD8BD00F6E7C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,21 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		50475877218F2A97002CC06D /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				50475878218F2A97002CC06D /* DTLoginViewController.m */,
-				50475879218F2A97002CC06D /* DTLoginRouter.h */,
-				5047587A218F2A97002CC06D /* DTLoginPresenter.h */,
-				5047587B218F2A97002CC06D /* DTLoginInteractor.h */,
-				5047587C218F2A97002CC06D /* DTLoginViewController.h */,
-				5047587D218F2A97002CC06D /* DTLoginPresenter.m */,
-				5047587E218F2A97002CC06D /* DTLoginRouter.m */,
-				5047587F218F2A97002CC06D /* DTLoginInteractor.m */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
 		505688EB218DD8BD00F6E7C0 = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +141,6 @@
 		5056891B218DD8F300F6E7C0 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				50B749F5218F274F00CA61CC /* Try */,
 				509C210D218EC64D00380B69 /* VIPER */,
 				505688F7218DD8BD00F6E7C0 /* AppDelegate.h */,
 				505688F8218DD8BD00F6E7C0 /* AppDelegate.m */,
@@ -228,14 +200,6 @@
 				50B749F2218F0D5100CA61CC /* DTHomeInteractor.m */,
 			);
 			path = VIPER;
-			sourceTree = "<group>";
-		};
-		50B749F5218F274F00CA61CC /* Try */ = {
-			isa = PBXGroup;
-			children = (
-				50475877218F2A97002CC06D /* Login */,
-			);
-			path = Try;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,13 +304,11 @@
 			files = (
 				50B749F0218F0B8100CA61CC /* UIViewController+EventHandler.m in Sources */,
 				509C2106218EAB2A00380B69 /* DTInteractor.m in Sources */,
-				50475880218F2A97002CC06D /* DTLoginViewController.m in Sources */,
 				50568925218DDA3800F6E7C0 /* DTURLParser.m in Sources */,
 				509C2113218EC86500380B69 /* DTHomePresenter.m in Sources */,
 				509C210C218EB01000380B69 /* DTRouter.m in Sources */,
 				50568928218DDA5E00F6E7C0 /* DTReflector.m in Sources */,
 				509C2110218EC81800380B69 /* DTHomeViewController.m in Sources */,
-				50475881218F2A97002CC06D /* DTLoginPresenter.m in Sources */,
 				50568922218DDA0D00F6E7C0 /* DTURLRouter.m in Sources */,
 				5056891F218DD9D100F6E7C0 /* DTArchConfig.m in Sources */,
 				50568907218DD8BE00F6E7C0 /* main.m in Sources */,
@@ -354,8 +316,6 @@
 				50B749F3218F0D5100CA61CC /* DTHomeInteractor.m in Sources */,
 				509C2116218EC88F00380B69 /* DTHomeRouter.m in Sources */,
 				509C20FD218DE2B500380B69 /* DTAssembler.m in Sources */,
-				50475882218F2A97002CC06D /* DTLoginRouter.m in Sources */,
-				50475883218F2A97002CC06D /* DTLoginInteractor.m in Sources */,
 				505688F9218DD8BD00F6E7C0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
