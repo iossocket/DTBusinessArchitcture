@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50475880218F2A97002CC06D /* DTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50475878218F2A97002CC06D /* DTLoginViewController.m */; };
+		50475881218F2A97002CC06D /* DTLoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047587D218F2A97002CC06D /* DTLoginPresenter.m */; };
+		50475882218F2A97002CC06D /* DTLoginRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047587E218F2A97002CC06D /* DTLoginRouter.m */; };
+		50475883218F2A97002CC06D /* DTLoginInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047587F218F2A97002CC06D /* DTLoginInteractor.m */; };
+		505688F9218DD8BD00F6E7C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 505688F8218DD8BD00F6E7C0 /* AppDelegate.m */; };
+		50568901218DD8BE00F6E7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50568900218DD8BE00F6E7C0 /* Assets.xcassets */; };
+		50568904218DD8BE00F6E7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50568902218DD8BE00F6E7C0 /* LaunchScreen.storyboard */; };
+		50568907218DD8BE00F6E7C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50568906218DD8BE00F6E7C0 /* main.m */; };
+		50568911218DD8BE00F6E7C0 /* DTBusinessArchitctureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50568910218DD8BE00F6E7C0 /* DTBusinessArchitctureTests.m */; };
+		5056891F218DD9D100F6E7C0 /* DTArchConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056891E218DD9D100F6E7C0 /* DTArchConfig.m */; };
+		50568922218DDA0D00F6E7C0 /* DTURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50568921218DDA0D00F6E7C0 /* DTURLRouter.m */; };
+		50568925218DDA3800F6E7C0 /* DTURLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50568924218DDA3800F6E7C0 /* DTURLParser.m */; };
+		50568928218DDA5E00F6E7C0 /* DTReflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 50568927218DDA5E00F6E7C0 /* DTReflector.m */; };
+		509C20FD218DE2B500380B69 /* DTAssembler.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C20FC218DE2B500380B69 /* DTAssembler.m */; };
+		509C2103218EAA8D00380B69 /* DTPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C2102218EAA8D00380B69 /* DTPresenter.m */; };
+		509C2106218EAB2A00380B69 /* DTInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C2105218EAB2A00380B69 /* DTInteractor.m */; };
+		509C210C218EB01000380B69 /* DTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C210B218EB01000380B69 /* DTRouter.m */; };
+		509C2110218EC81800380B69 /* DTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C210F218EC81800380B69 /* DTHomeViewController.m */; };
+		509C2113218EC86500380B69 /* DTHomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C2112218EC86500380B69 /* DTHomePresenter.m */; };
+		509C2116218EC88F00380B69 /* DTHomeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C2115218EC88F00380B69 /* DTHomeRouter.m */; };
+		50B749F0218F0B8100CA61CC /* UIViewController+EventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B749EF218F0B8100CA61CC /* UIViewController+EventHandler.m */; };
+		50B749F3218F0D5100CA61CC /* DTHomeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B749F2218F0D5100CA61CC /* DTHomeInteractor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5056890D218DD8BE00F6E7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505688EC218DD8BD00F6E7C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505688F3218DD8BD00F6E7C0;
+			remoteInfo = DTBusinessArchitcture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50475878218F2A97002CC06D /* DTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLoginViewController.m; sourceTree = "<group>"; };
+		50475879218F2A97002CC06D /* DTLoginRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoginRouter.h; sourceTree = "<group>"; };
+		5047587A218F2A97002CC06D /* DTLoginPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoginPresenter.h; sourceTree = "<group>"; };
+		5047587B218F2A97002CC06D /* DTLoginInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoginInteractor.h; sourceTree = "<group>"; };
+		5047587C218F2A97002CC06D /* DTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoginViewController.h; sourceTree = "<group>"; };
+		5047587D218F2A97002CC06D /* DTLoginPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLoginPresenter.m; sourceTree = "<group>"; };
+		5047587E218F2A97002CC06D /* DTLoginRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLoginRouter.m; sourceTree = "<group>"; };
+		5047587F218F2A97002CC06D /* DTLoginInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLoginInteractor.m; sourceTree = "<group>"; };
+		505688F4218DD8BD00F6E7C0 /* DTBusinessArchitcture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTBusinessArchitcture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		505688F7218DD8BD00F6E7C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		505688F8218DD8BD00F6E7C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50568900218DD8BE00F6E7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50568903218DD8BE00F6E7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50568905218DD8BE00F6E7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50568906218DD8BE00F6E7C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5056890C218DD8BE00F6E7C0 /* DTBusinessArchitctureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTBusinessArchitctureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50568910218DD8BE00F6E7C0 /* DTBusinessArchitctureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTBusinessArchitctureTests.m; sourceTree = "<group>"; };
+		50568912218DD8BE00F6E7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5056891D218DD9D100F6E7C0 /* DTArchConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTArchConfig.h; sourceTree = "<group>"; };
+		5056891E218DD9D100F6E7C0 /* DTArchConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTArchConfig.m; sourceTree = "<group>"; };
+		50568920218DDA0D00F6E7C0 /* DTURLRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTURLRouter.h; sourceTree = "<group>"; };
+		50568921218DDA0D00F6E7C0 /* DTURLRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTURLRouter.m; sourceTree = "<group>"; };
+		50568923218DDA3800F6E7C0 /* DTURLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTURLParser.h; sourceTree = "<group>"; };
+		50568924218DDA3800F6E7C0 /* DTURLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTURLParser.m; sourceTree = "<group>"; };
+		50568926218DDA5E00F6E7C0 /* DTReflector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTReflector.h; sourceTree = "<group>"; };
+		50568927218DDA5E00F6E7C0 /* DTReflector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTReflector.m; sourceTree = "<group>"; };
+		509C20FB218DE2B500380B69 /* DTAssembler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTAssembler.h; sourceTree = "<group>"; };
+		509C20FC218DE2B500380B69 /* DTAssembler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAssembler.m; sourceTree = "<group>"; };
+		509C2101218EAA8D00380B69 /* DTPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTPresenter.h; sourceTree = "<group>"; };
+		509C2102218EAA8D00380B69 /* DTPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTPresenter.m; sourceTree = "<group>"; };
+		509C2104218EAB2A00380B69 /* DTInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTInteractor.h; sourceTree = "<group>"; };
+		509C2105218EAB2A00380B69 /* DTInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTInteractor.m; sourceTree = "<group>"; };
+		509C2107218EAB9C00380B69 /* DTInteractorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTInteractorProtocol.h; sourceTree = "<group>"; };
+		509C2108218EAF0600380B69 /* DTUserInterfaceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTUserInterfaceProtocol.h; sourceTree = "<group>"; };
+		509C2109218EAF9300380B69 /* DTRouterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTRouterProtocol.h; sourceTree = "<group>"; };
+		509C210A218EB01000380B69 /* DTRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTRouter.h; sourceTree = "<group>"; };
+		509C210B218EB01000380B69 /* DTRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTRouter.m; sourceTree = "<group>"; };
+		509C210E218EC81800380B69 /* DTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTHomeViewController.h; sourceTree = "<group>"; };
+		509C210F218EC81800380B69 /* DTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTHomeViewController.m; sourceTree = "<group>"; };
+		509C2111218EC86500380B69 /* DTHomePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTHomePresenter.h; sourceTree = "<group>"; };
+		509C2112218EC86500380B69 /* DTHomePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTHomePresenter.m; sourceTree = "<group>"; };
+		509C2114218EC88F00380B69 /* DTHomeRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTHomeRouter.h; sourceTree = "<group>"; };
+		509C2115218EC88F00380B69 /* DTHomeRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTHomeRouter.m; sourceTree = "<group>"; };
+		50B749ED218EFE5F00CA61CC /* DTPresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTPresenterProtocol.h; sourceTree = "<group>"; };
+		50B749EE218F0B8100CA61CC /* UIViewController+EventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EventHandler.h"; sourceTree = "<group>"; };
+		50B749EF218F0B8100CA61CC /* UIViewController+EventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EventHandler.m"; sourceTree = "<group>"; };
+		50B749F1218F0D5100CA61CC /* DTHomeInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTHomeInteractor.h; sourceTree = "<group>"; };
+		50B749F2218F0D5100CA61CC /* DTHomeInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTHomeInteractor.m; sourceTree = "<group>"; };
+		50B749F4218F1A4700CA61CC /* DTMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTMacro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505688F1218DD8BD00F6E7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50568909218DD8BE00F6E7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50475877218F2A97002CC06D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				50475878218F2A97002CC06D /* DTLoginViewController.m */,
+				50475879218F2A97002CC06D /* DTLoginRouter.h */,
+				5047587A218F2A97002CC06D /* DTLoginPresenter.h */,
+				5047587B218F2A97002CC06D /* DTLoginInteractor.h */,
+				5047587C218F2A97002CC06D /* DTLoginViewController.h */,
+				5047587D218F2A97002CC06D /* DTLoginPresenter.m */,
+				5047587E218F2A97002CC06D /* DTLoginRouter.m */,
+				5047587F218F2A97002CC06D /* DTLoginInteractor.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		505688EB218DD8BD00F6E7C0 = {
+			isa = PBXGroup;
+			children = (
+				505688F6218DD8BD00F6E7C0 /* DTBusinessArchitcture */,
+				5056890F218DD8BE00F6E7C0 /* DTBusinessArchitctureTests */,
+				505688F5218DD8BD00F6E7C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505688F5218DD8BD00F6E7C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505688F4218DD8BD00F6E7C0 /* DTBusinessArchitcture.app */,
+				5056890C218DD8BE00F6E7C0 /* DTBusinessArchitctureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505688F6218DD8BD00F6E7C0 /* DTBusinessArchitcture */ = {
+			isa = PBXGroup;
+			children = (
+				5056891C218DD93F00F6E7C0 /* Architecture */,
+				5056891B218DD8F300F6E7C0 /* Demo */,
+				50568900218DD8BE00F6E7C0 /* Assets.xcassets */,
+				50568902218DD8BE00F6E7C0 /* LaunchScreen.storyboard */,
+				50568905218DD8BE00F6E7C0 /* Info.plist */,
+			);
+			path = DTBusinessArchitcture;
+			sourceTree = "<group>";
+		};
+		5056890F218DD8BE00F6E7C0 /* DTBusinessArchitctureTests */ = {
+			isa = PBXGroup;
+			children = (
+				50568910218DD8BE00F6E7C0 /* DTBusinessArchitctureTests.m */,
+				50568912218DD8BE00F6E7C0 /* Info.plist */,
+			);
+			path = DTBusinessArchitctureTests;
+			sourceTree = "<group>";
+		};
+		5056891B218DD8F300F6E7C0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				50B749F5218F274F00CA61CC /* Try */,
+				509C210D218EC64D00380B69 /* VIPER */,
+				505688F7218DD8BD00F6E7C0 /* AppDelegate.h */,
+				505688F8218DD8BD00F6E7C0 /* AppDelegate.m */,
+				50568906218DD8BE00F6E7C0 /* main.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		5056891C218DD93F00F6E7C0 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				509C2100218EAA0200380B69 /* VIPER */,
+				5056891D218DD9D100F6E7C0 /* DTArchConfig.h */,
+				5056891E218DD9D100F6E7C0 /* DTArchConfig.m */,
+				50568920218DDA0D00F6E7C0 /* DTURLRouter.h */,
+				50568921218DDA0D00F6E7C0 /* DTURLRouter.m */,
+				50568923218DDA3800F6E7C0 /* DTURLParser.h */,
+				50568924218DDA3800F6E7C0 /* DTURLParser.m */,
+				50568926218DDA5E00F6E7C0 /* DTReflector.h */,
+				50568927218DDA5E00F6E7C0 /* DTReflector.m */,
+				509C20FB218DE2B500380B69 /* DTAssembler.h */,
+				509C20FC218DE2B500380B69 /* DTAssembler.m */,
+				50B749F4218F1A4700CA61CC /* DTMacro.h */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		509C2100218EAA0200380B69 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				509C2101218EAA8D00380B69 /* DTPresenter.h */,
+				509C2102218EAA8D00380B69 /* DTPresenter.m */,
+				509C2104218EAB2A00380B69 /* DTInteractor.h */,
+				509C2105218EAB2A00380B69 /* DTInteractor.m */,
+				509C210A218EB01000380B69 /* DTRouter.h */,
+				509C210B218EB01000380B69 /* DTRouter.m */,
+				509C2107218EAB9C00380B69 /* DTInteractorProtocol.h */,
+				509C2108218EAF0600380B69 /* DTUserInterfaceProtocol.h */,
+				509C2109218EAF9300380B69 /* DTRouterProtocol.h */,
+				50B749ED218EFE5F00CA61CC /* DTPresenterProtocol.h */,
+				50B749EE218F0B8100CA61CC /* UIViewController+EventHandler.h */,
+				50B749EF218F0B8100CA61CC /* UIViewController+EventHandler.m */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		509C210D218EC64D00380B69 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				509C210E218EC81800380B69 /* DTHomeViewController.h */,
+				509C210F218EC81800380B69 /* DTHomeViewController.m */,
+				509C2111218EC86500380B69 /* DTHomePresenter.h */,
+				509C2112218EC86500380B69 /* DTHomePresenter.m */,
+				509C2114218EC88F00380B69 /* DTHomeRouter.h */,
+				509C2115218EC88F00380B69 /* DTHomeRouter.m */,
+				50B749F1218F0D5100CA61CC /* DTHomeInteractor.h */,
+				50B749F2218F0D5100CA61CC /* DTHomeInteractor.m */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		50B749F5218F274F00CA61CC /* Try */ = {
+			isa = PBXGroup;
+			children = (
+				50475877218F2A97002CC06D /* Login */,
+			);
+			path = Try;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505688F3218DD8BD00F6E7C0 /* DTBusinessArchitcture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50568915218DD8BE00F6E7C0 /* Build configuration list for PBXNativeTarget "DTBusinessArchitcture" */;
+			buildPhases = (
+				505688F0218DD8BD00F6E7C0 /* Sources */,
+				505688F1218DD8BD00F6E7C0 /* Frameworks */,
+				505688F2218DD8BD00F6E7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTBusinessArchitcture;
+			productName = DTBusinessArchitcture;
+			productReference = 505688F4218DD8BD00F6E7C0 /* DTBusinessArchitcture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5056890B218DD8BE00F6E7C0 /* DTBusinessArchitctureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50568918218DD8BE00F6E7C0 /* Build configuration list for PBXNativeTarget "DTBusinessArchitctureTests" */;
+			buildPhases = (
+				50568908218DD8BE00F6E7C0 /* Sources */,
+				50568909218DD8BE00F6E7C0 /* Frameworks */,
+				5056890A218DD8BE00F6E7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5056890E218DD8BE00F6E7C0 /* PBXTargetDependency */,
+			);
+			name = DTBusinessArchitctureTests;
+			productName = DTBusinessArchitctureTests;
+			productReference = 5056890C218DD8BE00F6E7C0 /* DTBusinessArchitctureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505688EC218DD8BD00F6E7C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DT;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = iossocket;
+				TargetAttributes = {
+					505688F3218DD8BD00F6E7C0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5056890B218DD8BE00F6E7C0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 505688F3218DD8BD00F6E7C0;
+					};
+				};
+			};
+			buildConfigurationList = 505688EF218DD8BD00F6E7C0 /* Build configuration list for PBXProject "DTBusinessArchitcture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 505688EB218DD8BD00F6E7C0;
+			productRefGroup = 505688F5218DD8BD00F6E7C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505688F3218DD8BD00F6E7C0 /* DTBusinessArchitcture */,
+				5056890B218DD8BE00F6E7C0 /* DTBusinessArchitctureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505688F2218DD8BD00F6E7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50568904218DD8BE00F6E7C0 /* LaunchScreen.storyboard in Resources */,
+				50568901218DD8BE00F6E7C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5056890A218DD8BE00F6E7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505688F0218DD8BD00F6E7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B749F0218F0B8100CA61CC /* UIViewController+EventHandler.m in Sources */,
+				509C2106218EAB2A00380B69 /* DTInteractor.m in Sources */,
+				50475880218F2A97002CC06D /* DTLoginViewController.m in Sources */,
+				50568925218DDA3800F6E7C0 /* DTURLParser.m in Sources */,
+				509C2113218EC86500380B69 /* DTHomePresenter.m in Sources */,
+				509C210C218EB01000380B69 /* DTRouter.m in Sources */,
+				50568928218DDA5E00F6E7C0 /* DTReflector.m in Sources */,
+				509C2110218EC81800380B69 /* DTHomeViewController.m in Sources */,
+				50475881218F2A97002CC06D /* DTLoginPresenter.m in Sources */,
+				50568922218DDA0D00F6E7C0 /* DTURLRouter.m in Sources */,
+				5056891F218DD9D100F6E7C0 /* DTArchConfig.m in Sources */,
+				50568907218DD8BE00F6E7C0 /* main.m in Sources */,
+				509C2103218EAA8D00380B69 /* DTPresenter.m in Sources */,
+				50B749F3218F0D5100CA61CC /* DTHomeInteractor.m in Sources */,
+				509C2116218EC88F00380B69 /* DTHomeRouter.m in Sources */,
+				509C20FD218DE2B500380B69 /* DTAssembler.m in Sources */,
+				50475882218F2A97002CC06D /* DTLoginRouter.m in Sources */,
+				50475883218F2A97002CC06D /* DTLoginInteractor.m in Sources */,
+				505688F9218DD8BD00F6E7C0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50568908218DD8BE00F6E7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50568911218DD8BE00F6E7C0 /* DTBusinessArchitctureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5056890E218DD8BE00F6E7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505688F3218DD8BD00F6E7C0 /* DTBusinessArchitcture */;
+			targetProxy = 5056890D218DD8BE00F6E7C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50568902218DD8BE00F6E7C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50568903218DD8BE00F6E7C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50568913218DD8BE00F6E7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50568914218DD8BE00F6E7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50568916218DD8BE00F6E7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DTBusinessArchitcture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iossocket.DTBusinessArchitcture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50568917218DD8BE00F6E7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DTBusinessArchitcture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iossocket.DTBusinessArchitcture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50568919218DD8BE00F6E7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DTBusinessArchitctureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iossocket.DTBusinessArchitctureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTBusinessArchitcture.app/DTBusinessArchitcture";
+			};
+			name = Debug;
+		};
+		5056891A218DD8BE00F6E7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DTBusinessArchitctureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iossocket.DTBusinessArchitctureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTBusinessArchitcture.app/DTBusinessArchitcture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505688EF218DD8BD00F6E7C0 /* Build configuration list for PBXProject "DTBusinessArchitcture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50568913218DD8BE00F6E7C0 /* Debug */,
+				50568914218DD8BE00F6E7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50568915218DD8BE00F6E7C0 /* Build configuration list for PBXNativeTarget "DTBusinessArchitcture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50568916218DD8BE00F6E7C0 /* Debug */,
+				50568917218DD8BE00F6E7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50568918218DD8BE00F6E7C0 /* Build configuration list for PBXNativeTarget "DTBusinessArchitctureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50568919218DD8BE00F6E7C0 /* Debug */,
+				5056891A218DD8BE00F6E7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 505688EC218DD8BD00F6E7C0 /* Project object */;
+}
